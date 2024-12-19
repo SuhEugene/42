@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>42</title>
+</head>
+
+<body>
+  <div id="app">
+    <div id="number"><span>42</span></div>
+    <div id="loading">
+      <div class="spinner"><span>42</span></div>
+      <span>Ожидание sp worlds...</span>
+    </div>
+    <div id="auth">
+      <div class="spinner"><span>42</span></div>
+      <span>Авторизация...</span>
+    </div>
+    <div id="error">
+      <span>Ошибка авторизации</span>
+    </div>
+  </div>
+  <div id="pending">Ожидание оплаты...</div>
+  <div id="paymentError">
+    <div class="paymentErrorBlock">
+      <div>
+        <h4>Ошибка оплаты</h4>
+        <p id="paymentErrorText">ААА!</p>
+      </div>
+    </div>
+    <button id="paymentErrorClose">&times;</button>
+  </div>
+  <script type="module" src="/src/frontend/main.ts"></script>
+</body>
+
+</html>

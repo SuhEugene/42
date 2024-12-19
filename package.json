@@ -1,0 +1,24 @@
+{
+  "name": "fourtytwo",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --hot server.ts",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/express-session": "^1.18.1",
+    "@types/node": "^22.10.2",
+    "@types/session-file-store": "^1.2.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "session-file-store": "^1.5.0",
+    "spwmini-shitless": "^1.0.6",
+    "vite": "^6.0.3"
+  }
+}
